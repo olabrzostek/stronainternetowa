@@ -1,0 +1,26 @@
+.main-banner {
+    background: url("/usa/IMG_20190826_133853.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-banner__button {
+    border: 2px solid white;
+    padding: 20px 30px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(253, 253, 253, 0.308);
+    transition: 0.3s;
+}
+
+.main-banner__button:hover {
+    background: rgb(224, 223, 223);
+}
